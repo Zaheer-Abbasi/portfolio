@@ -1,0 +1,311 @@
+*{
+   
+    margin: 0px !important;
+}
+body{
+    background-color: bisque !important;
+}
+.nav-link{
+    color: white !important;
+    font-size: 25px !important;
+}
+.dropdown-item{
+    color: blue !important;
+}
+.btn{
+    color: white !important;
+    font-size: 25px !important;
+}
+.footer{
+    background-color: rgba(0, 121, 202, 0.952);
+    text-align: center;
+    align-content: center;
+    height: 60px;
+    margin: auto;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+.a{
+    color: white !important;
+    text-align: center;
+    text-shadow: 2px 10px 10px black ;
+}
+.zaheer{
+    color: white;
+    
+    text-shadow: 2px 10px 10px black ;
+    font-size: 35px;
+    font-weight: bold;
+}
+.row{
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 760px)
+{
+    .social-menu2
+    {
+    width: 300px;
+    padding: 0px !important;
+    margin: 0px !important;
+    }
+}
+
+
+@media only screen and (max-width: 760px)
+{
+    .zaheer
+    {
+    width: 350px;
+    font-size: 25px;
+    padding: 0px !important;
+    margin: 0px !important;
+    }
+}
+
+.info{
+    padding-left: 40px;
+    color: white !important;
+}
+@media only screen and (max-width: 760px)
+{
+    .info
+    {
+    
+    font-size: medium;
+    }
+}
+.zaheer1{
+    margin: 0px;
+    padding-top: 45px;
+    color: white;
+    text-shadow: 2px 10px 10px black ;
+    font-size: 35px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 760px)
+{
+    .zaheer1
+    {
+    width: 300px;
+    font-size: 25px;
+    padding-top:40px;
+    margin: 0px !important;
+    }
+}
+
+.info1
+{
+    
+    color: white !important;
+}
+@media only screen and (max-width: 760px)
+{
+    .info
+    {
+        font-style: normal;
+    font-size: medium;
+    }
+}
+.contact{
+    width: 100px;
+    height: 100px;
+}
+.contact2{
+    width: 60px;
+    height: 60px;
+}
+@media only screen and (max-width: 760px)
+{
+    .contact
+    {
+    width: 60px;
+    height: 60px;
+}
+
+}
+.input{
+    font-size: 1em;
+    padding: 5px;
+    margin: 2px;
+}
+.submit{
+    border: none;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.zaheer2{
+    margin: 0px;
+    padding-top: 45px;
+    color: white;
+    text-shadow: 2px 10px 10px black ;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 760px)
+{
+    .zaheer2
+    {
+    width: 300px;
+    font-size: 25px;
+    padding-top:40px;
+    margin: 0px !important;
+    }
+}
+.zaheer3{
+    margin: 0px;
+    color: blue;
+    text-shadow: 2px 10px 10px black ;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.a{
+    
+    margin: 0px;
+    color: blue !important;
+    text-shadow: 2px 10px 10px black ;
+    font-size: 70px;
+    font-weight: bold;
+}
+.aa{
+    margin: 0px;
+    color: blue !important;
+    text-shadow: 2px 10px 10px black ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.aaa{
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color:white !important;
+    text-shadow: 2px 10px 10px black ;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+
+
+
+.social-menu ul li
+{
+    list-style: none;
+    padding: 2px;
+    margin: 0 3px 0px 0px;
+    float: left;
+
+}
+.social-menu ul li .fa
+{
+    color: #000000;
+    font-size: 15px;
+    line-height: 30px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover
+{
+    color: #ffffff;
+}
+.social-menu ul li a
+{
+    position: flex;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.4s;
+    transform: translate(0, 0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover
+{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover
+{
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover
+{
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover
+{
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover
+{
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover
+{
+    background-color: #0077B5;
+}
+
+
+/* footer social menu */
+
+
+.social-menu2 ul li
+{
+    list-style: none;
+    padding: 2px;
+    margin: 0 3px 0px 0px;
+    float: left;
+
+}
+.social-menu2 ul li .fa
+{
+    color: #000000;
+    font-size: 15px;
+    line-height: 30px;
+    transition: .5s;
+}
+.social-menu2 ul li .fa:hover
+{
+    color: #ffffff;
+}
+.social-menu2 ul li a
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.4s;
+    transform: translate(0, 0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu2 ul li a:hover
+{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu2 ul li:nth-child(1) a:hover
+{
+    background-color: #3b5999;
+}
+.social-menu2 ul li:nth-child(2) a:hover
+{
+    background-color: #55acee;
+}
+.social-menu2 ul li:nth-child(3) a:hover
+{
+    background-color: #e4405f;
+}
+
+.social-menu2 ul li:nth-child(4) a:hover
+{
+    background-color: #0077B5;
+}
